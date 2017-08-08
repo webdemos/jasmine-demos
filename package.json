@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run server",
-    "server": "http-server -o -c-l -p 8082"
+    "start": "npm run lite",
+    "lite": "lite-server -c bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/webdemos/jasmine-demos#readme",
   "devDependencies": {
-    "http-server": "^0.9.0",
     "jasmine-core": "^2.5.2",
     "jquery": "^3.1.1",
-    "lite-server": "^2.2.2",
-    "live-server": "^1.1.0"
-  }
+    "lite-server": "^2.2.2"
+  },
+  "false": {}
 }
